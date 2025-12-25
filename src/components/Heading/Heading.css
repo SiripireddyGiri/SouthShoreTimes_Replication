@@ -1,0 +1,78 @@
+.Heading-main {
+  margin: 0 8rem;
+}
+
+.Sub-Heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem 0;
+  gap: 0.5rem;
+}
+
+.Sub-Heading span {
+  display: inline-block;
+  width: 0.2rem;
+  height: 2rem;
+  background-color: var(--bg-heading);
+  flex-shrink: 0;
+}
+
+.Sub-Heading h2 {
+  font-size: 2rem;
+} 
+
+@media (max-width: 64rem) {
+  .Heading-main {
+    margin: 0 4rem;
+  }
+
+  .Sub-Heading h2 {
+    font-size: 1.75rem;
+  }
+
+  .Sub-Heading span {
+    height: 1.5rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .Heading-main {
+    margin: 0 2rem;
+  }
+
+  .Sub-Heading h2 {
+    font-size: 1.5rem;
+  }
+
+  .Sub-Heading span {
+    height: 1.5rem;
+    width: 0.15rem;
+  }
+
+  .Sub-Heading {
+    margin: 0.75rem 0;
+    gap: 0.4rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .Heading-main {
+    margin: 0 1rem;
+  }
+
+  .Sub-Heading h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .Sub-Heading span {
+    height: 1.3rem;
+    width: 0.12rem;
+  }
+
+  .Sub-Heading {
+    margin: 0.5rem 0;
+    gap: 0.3rem;
+  }
+} 

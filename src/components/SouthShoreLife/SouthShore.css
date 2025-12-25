@@ -1,0 +1,109 @@
+:root { --btn-bg-color: #5D8AA8; }
+
+.main-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    gap: 1.5em;
+}
+
+.southshore-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.Health-willness .Health {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+button {
+    height: 2.2em;
+    min-width: 9em;
+    padding: 0 0.6em;
+    background-color: var(--btn-bg-color);
+    color: #ffffff;
+    font-size: 0.95rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a6f87;
+}
+
+.south-main {
+    display: flex;
+    gap: 0.6em;
+    margin-bottom: 1em;
+    align-items: flex-start;
+}
+
+.south-main img {
+    width: 120px;
+    max-width: 30%;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.southsub {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+@media (max-width: 1200px) {
+    .main-card {
+        gap: 1.2em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Health-willness .Health {
+        aspect-ratio: 4 / 3;
+    }
+}
+
+@media (max-width: 768px) {
+    .south-main {
+        gap: 0.5em;
+    }
+    
+    .south-main img {
+        width: 100px;
+        max-width: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-card {
+        padding: 0 0.5rem;
+        gap: 1rem;
+    }
+    
+    .Health-willness .Health {
+        aspect-ratio: 4 / 3;
+    }
+    
+    .south-main {
+        flex-direction: column;
+        gap: 0.6em;
+    }
+    
+    .south-main img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    
+    button {
+        min-width: 7rem;
+        font-size: 0.9em;
+    }
+}
