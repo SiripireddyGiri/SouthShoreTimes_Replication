@@ -1,16 +1,30 @@
-# React + Vite
+# South Shore Times – News Website Replica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **frontend replica of the South Shore Times news website**, built using **React and Vite**.  
+The goal of this project is to recreate the **layout, design, and user experience** of a modern news platform while maintaining fast performance and clean component-based architecture.
 
-Currently, two official plugins are available:
+##  Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** – Component-based UI development
+- **Vite** – Fast build tool with Hot Module Replacement (HMR)
+- **JavaScript (ES6+)**
+- **CSS** – Responsive and clean styling
+- **ESLint** – Code quality and consistency
 
-## React Compiler
+##  Project Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Homepage layout inspired by **South Shore Times**
+- News sections such as:
+  - Top Headlines
+  - Latest News
+  - Category-based articles
+- Reusable React components (Navbar, Articles, Footer, etc.)
+- Responsive design for desktop and mobile screens
+- Fast refresh and optimized development workflow using Vite
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/south-shore-times-replica.git
