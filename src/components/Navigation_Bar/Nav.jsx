@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from '../../assets/icon.png'
+import icon from '../../assets/Icon.png'
 import facebook from '../../assets/facebook-icon.jpg'
 import instagram from '../../assets/insta.jpg'
 import linkdin from '../../assets/linkdin.jpg'
